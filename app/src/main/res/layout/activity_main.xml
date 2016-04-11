@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jinyoon.project0.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="Popular Movies"
+        android:id="@+id/buttonProject1"
+        android:textSize="20dp"
+        android:background="#2e3d49"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickProject1"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="stock hawk"
+        android:id="@+id/buttonProject2"
+        android:textSize="20sp"
+        android:background="#2e3d49"
+        android:textColor="#ffffff"
+        android:onClick="clickProject2"
+        android:layout_below="@+id/buttonProject1"
+        android:layout_alignStart="@+id/buttonProject1"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="build it bigger"
+        android:id="@+id/buttonProject3"
+        android:textSize="20sp"
+        android:background="#2e3d49"
+        android:textColor="#ffffff"
+        android:onClick="clickProject3"
+        android:layout_below="@+id/buttonProject2"
+        android:layout_alignStart="@+id/buttonProject2"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="Make your app material"
+        android:id="@+id/buttonProject4"
+        android:textSize="20sp"
+        android:background="#2e3d49"
+        android:textColor="#ffffff"
+        android:onClick="clickProject4"
+        android:layout_below="@+id/buttonProject3"
+        android:layout_alignStart="@+id/buttonProject3"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="go ubiquitous"
+        android:id="@+id/buttonProject5"
+        android:textSize="20sp"
+        android:background="#2e3d49"
+        android:textColor="#ffffff"
+        android:onClick="clickProject5"
+        android:layout_below="@+id/buttonProject4"
+        android:layout_alignStart="@+id/buttonProject4"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="capstone"
+        android:id="@+id/buttonProject6"
+        android:textSize="20sp"
+        android:background="#2e3d49"
+        android:textColor="#ffffff"
+        android:onClick="clickProject6"
+        android:layout_below="@+id/buttonProject5"
+        android:layout_alignStart="@+id/buttonProject5" />
+
+</RelativeLayout>
