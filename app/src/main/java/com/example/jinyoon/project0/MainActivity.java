@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void clickProject1(View view){
-        Toast.makeText(getApplicationContext(),"This button will launch my Popular Movies app!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"This  will launch my Popular Movies app!",Toast.LENGTH_SHORT).show();
 
     }
     public void clickProject2(View view){
